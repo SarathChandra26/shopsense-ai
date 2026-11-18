@@ -1,0 +1,246 @@
+[
+  {
+    "id": "eval-q01",
+    "query": "laptop under 70000 for Python development with 16 GB RAM",
+    "category": "Laptops",
+    "constraints": {
+      "category": "Laptops",
+      "budget_max": 70000.0,
+      "ram_gb": 16.0
+    },
+    "relevant_product_ids": [
+      "PROD-LAP-076",
+      "PROD-LAP-084",
+      "PROD-LAP-029",
+      "PROD-LAP-118",
+      "PROD-LAP-004",
+      "PROD-LAP-054"
+    ],
+    "graded_relevance": {
+      "PROD-LAP-076": 2,
+      "PROD-LAP-084": 2,
+      "PROD-LAP-029": 1,
+      "PROD-LAP-118": 1,
+      "PROD-LAP-004": 1,
+      "PROD-LAP-054": 1
+    }
+  },
+  {
+    "id": "eval-q02",
+    "query": "wireless noise cancelling over ear headphones for office calls",
+    "category": "Headphones",
+    "constraints": {
+      "category": "Headphones"
+    },
+    "relevant_product_ids": [
+      "PROD-AUD-001",
+      "PROD-AUD-002",
+      "PROD-AUD-003",
+      "PROD-AUD-004",
+      "PROD-AUD-005",
+      "PROD-AUD-006"
+    ],
+    "graded_relevance": {
+      "PROD-AUD-001": 2,
+      "PROD-AUD-002": 2,
+      "PROD-AUD-003": 1,
+      "PROD-AUD-004": 1,
+      "PROD-AUD-005": 1,
+      "PROD-AUD-006": 1
+    }
+  },
+  {
+    "id": "eval-q03",
+    "query": "fast PCIe 4.0 NVMe SSD storage 1TB or 2TB",
+    "category": "Storage Devices",
+    "constraints": {
+      "category": "Storage Devices"
+    },
+    "relevant_product_ids": [
+      "PROD-STR-001",
+      "PROD-STR-002",
+      "PROD-STR-003",
+      "PROD-STR-004",
+      "PROD-STR-005",
+      "PROD-STR-007"
+    ],
+    "graded_relevance": {
+      "PROD-STR-001": 2,
+      "PROD-STR-002": 2,
+      "PROD-STR-003": 1,
+      "PROD-STR-004": 1,
+      "PROD-STR-005": 1,
+      "PROD-STR-007": 1
+    }
+  },
+  {
+    "id": "eval-q04",
+    "query": "144Hz high refresh rate gaming monitor for PC setup",
+    "category": "Monitors",
+    "constraints": {
+      "category": "Monitors"
+    },
+    "relevant_product_ids": [
+      "PROD-MON-001",
+      "PROD-MON-003",
+      "PROD-MON-004",
+      "PROD-MON-008",
+      "PROD-MON-009",
+      "PROD-MON-010"
+    ],
+    "graded_relevance": {
+      "PROD-MON-001": 2,
+      "PROD-MON-003": 2,
+      "PROD-MON-004": 1,
+      "PROD-MON-008": 1,
+      "PROD-MON-009": 1,
+      "PROD-MON-010": 1
+    }
+  },
+  {
+    "id": "eval-q05",
+    "query": "Apple iPhone with good battery and iOS",
+    "category": "Smartphones",
+    "constraints": {
+      "category": "Smartphones",
+      "brand": "Apple"
+    },
+    "relevant_product_ids": [
+      "PROD-PHN-009",
+      "PROD-PHN-019",
+      "PROD-PHN-021",
+      "PROD-PHN-023",
+      "PROD-PHN-025",
+      "PROD-PHN-040"
+    ],
+    "graded_relevance": {
+      "PROD-PHN-009": 2,
+      "PROD-PHN-019": 2,
+      "PROD-PHN-021": 1,
+      "PROD-PHN-023": 1,
+      "PROD-PHN-025": 1,
+      "PROD-PHN-040": 1
+    }
+  },
+  {
+    "id": "eval-q06",
+    "query": "mechanical keyboard wireless with tactile switches",
+    "category": "Keyboards",
+    "constraints": {
+      "category": "Keyboards"
+    },
+    "relevant_product_ids": [
+      "PROD-KEY-001",
+      "PROD-KEY-002",
+      "PROD-KEY-003",
+      "PROD-KEY-004",
+      "PROD-KEY-005",
+      "PROD-KEY-006"
+    ],
+    "graded_relevance": {
+      "PROD-KEY-001": 2,
+      "PROD-KEY-002": 2,
+      "PROD-KEY-003": 1,
+      "PROD-KEY-004": 1,
+      "PROD-KEY-005": 1,
+      "PROD-KEY-006": 1
+    }
+  },
+  {
+    "id": "eval-q07",
+    "query": "lightweight wireless mouse for competitive gaming and work",
+    "category": "Mice",
+    "constraints": {
+      "category": "Mice"
+    },
+    "relevant_product_ids": [
+      "PROD-MOU-001",
+      "PROD-MOU-002",
+      "PROD-MOU-003",
+      "PROD-MOU-004",
+      "PROD-MOU-005",
+      "PROD-MOU-006"
+    ],
+    "graded_relevance": {
+      "PROD-MOU-001": 2,
+      "PROD-MOU-002": 2,
+      "PROD-MOU-003": 1,
+      "PROD-MOU-004": 1,
+      "PROD-MOU-005": 1,
+      "PROD-MOU-006": 1
+    }
+  },
+  {
+    "id": "eval-q08",
+    "query": "productivity tablet with stylus support for college note taking",
+    "category": "Tablets",
+    "constraints": {
+      "category": "Tablets"
+    },
+    "relevant_product_ids": [
+      "PROD-TAB-001",
+      "PROD-TAB-002",
+      "PROD-TAB-003",
+      "PROD-TAB-004",
+      "PROD-TAB-005",
+      "PROD-TAB-006"
+    ],
+    "graded_relevance": {
+      "PROD-TAB-001": 2,
+      "PROD-TAB-002": 2,
+      "PROD-TAB-003": 1,
+      "PROD-TAB-004": 1,
+      "PROD-TAB-005": 1,
+      "PROD-TAB-006": 1
+    }
+  },
+  {
+    "id": "eval-q09",
+    "query": "smartwatch with GPS and heart rate tracking for running",
+    "category": "Smartwatches",
+    "constraints": {
+      "category": "Smartwatches"
+    },
+    "relevant_product_ids": [
+      "PROD-WAT-001",
+      "PROD-WAT-002",
+      "PROD-WAT-003",
+      "PROD-WAT-004",
+      "PROD-WAT-005",
+      "PROD-WAT-006"
+    ],
+    "graded_relevance": {
+      "PROD-WAT-001": 2,
+      "PROD-WAT-002": 2,
+      "PROD-WAT-003": 1,
+      "PROD-WAT-004": 1,
+      "PROD-WAT-005": 1,
+      "PROD-WAT-006": 1
+    }
+  },
+  {
+    "id": "eval-q10",
+    "query": "budget smartphone under 35000 with 120Hz display and 5G",
+    "category": "Smartphones",
+    "constraints": {
+      "category": "Smartphones",
+      "budget_max": 35000.0
+    },
+    "relevant_product_ids": [
+      "PROD-PHN-118",
+      "PROD-PHN-138",
+      "PROD-PHN-029",
+      "PROD-PHN-059",
+      "PROD-PHN-083",
+      "PROD-PHN-135"
+    ],
+    "graded_relevance": {
+      "PROD-PHN-118": 2,
+      "PROD-PHN-138": 2,
+      "PROD-PHN-029": 1,
+      "PROD-PHN-059": 1,
+      "PROD-PHN-083": 1,
+      "PROD-PHN-135": 1
+    }
+  }
+]

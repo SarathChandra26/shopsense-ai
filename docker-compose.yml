@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  shopsense:
+    build: .
+    container_name: shopsense-ai
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    volumes:
+      - ./storage:/app/storage
+      - ./data:/app/data
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OLLAMA_MODEL=llama3.2
+      - TRANSFORMERS_NO_TF=1
+      - TF_ENABLE_ONEDNN_OPTS=0
+    restart: unless-stopped
